@@ -1,0 +1,14 @@
+{
+  "name": "simple-markdown-blog",
+  "version": "1.0.0",
+  "description": "A simple Node.js blog app that serves Markdown posts from a folder.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "markdown-it": "^13.0.1",
+    "morgan": "^1.10.0"
+  }
+}
